@@ -29,7 +29,7 @@ check_url = 'https://69yun69.com/user/checkin'
 info_url = 'https://69yun69.com/user/profile'
 
 header = {
-        'origin': 'https://speedcat.co',
+        'origin': 'https://69yun69.com',
         'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
 }
 data = {
