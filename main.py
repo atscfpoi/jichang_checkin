@@ -11,12 +11,12 @@ SCKEY = os.environ.get('SCKEY')
 Token = os.environ.get('TOKEN')
 def push(content):
     if SCKEY != '1':
-        url = "https://sctapi.ftqq.com/{}.send?title={}&desp={}".format(SCKEY, 'speedcat签到', content)
+        url = "https://sctapi.ftqq.com/{}.send?title={}&desp={}".format(SCKEY, '69yun69签到', content)
         requests.post(url)
         print('推送完成')
     elif Token != '1':
         headers = {'Content-Type': 'application/json'}
-        json = {"token": Token, 'title': 'cat签到', 'content': content, "template": "json"}
+        json = {"token": Token, 'title': '68yun69签到', 'content': content, "template": "json"}
         resp = requests.post(f'http://www.pushplus.plus/send', json=json, headers=headers).json()
         print('push+推送成功' if resp['code'] == 200 else 'push+推送失败')
     else:
@@ -24,9 +24,9 @@ def push(content):
 
 # 会不定时更新域名，记得Sync fork
 
-login_url = 'https://speedcat.co/auth/login'
-check_url = 'https://speedcat.co/user/checkin'
-info_url = 'https://speedcat.co/user/profile'
+login_url = 'https://69yun69.com/auth/login'
+check_url = 'https://69yun69.com/user/checkin'
+info_url = 'https://69yun69.com/user/profile'
 
 header = {
         'origin': 'https://speedcat.co',
